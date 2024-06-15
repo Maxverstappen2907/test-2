@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Great deals website!</title>
+    <style>
+        body {
+            background-color: rgb(250, 250, 250);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to our website. </h1>
+    <p style="font-size: 1.5em;">We costum print: Shirts en Hoodies</p>
+    <p style="font-size: 1.5em;">and <strong>You</strong> ,Yes you can decide what we print</p>
+    <div>
+        <p style="font-size: 1.5em;">How we work you ask?</p>
+        <p style="font-size: 1.5em;">Well just in short:</p>
+        <p style="font-size: 1.5em;"> you email us with what you have in thought and then our desingers and artist will work youre idea out and then we will email back with the disging, and then you will say if it is okey or not then we will chanche it (and back and fort thil we got what you want)</p>
+        <p style="font-size: 1.5em;">want a costum hoodie or shirt?</p>
+        <div style="position: relative;"> <!-- changed from absolute to relative -->
+            <form action="send_email.php" method="post">
+                <label style="font-size: 1.5em;" for="email">Enter your email address:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label style="font-size: 1.5em;" for="message">What do you want? Please explain as much as possible:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <input type="submit" value="Enter">
+            </form>
+        </div>
+        <h1>Will be continued </h1>
+    </body>
+</html>
